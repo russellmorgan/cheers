@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.subreference.phonegap" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cheers!</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="russell@subreference.com" href="http://subreference.com">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="TopActivityIndicator" value="white"/>
+    <preference name="Orientation" value="portrait" />
+    <icon src="icon.png" />
+    <gap:splash src="img/splash.png"      gap:platform="ios"     width="640" height="1136" />
+</widget>
